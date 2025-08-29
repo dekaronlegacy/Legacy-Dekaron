@@ -69,6 +69,12 @@ body{
 .discord{ display:flex; align-items:center; justify-content:center; gap:10px; background:#5865F2; color:#fff; text-decoration:none; padding:14px; border-radius:14px; border:1px solid #4b55d4; box-shadow:var(--shadow); font-weight:800 }
 .discord__logo{ font-size:1.2rem }
 .footer{ max-width:1200px; margin:40px auto; padding:10px 20px 40px; text-align:center; color:var(--muted); border-top:1px solid var(--stroke) }
+.cta {
+  display: flex;
+  gap: 12px; /* espaço entre os botões */
+  align-items: center;
+  justify-content: center;
+}
 /* HOW TO CHANGE BACKGROUND:
    1) Coloque sua imagem (ex: bg.jpg) na mesma pasta do index.html
    2) Troque em :root -> --bg-image: url('bg.jpg')
