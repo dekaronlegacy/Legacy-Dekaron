@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="EN">
+
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dekaron Legacy</title>
-  <link rel="stylesheet" href="styles.css" />
-  <meta name="description" content="Dekaron Legacy — clássico Ação 9. Baixe o cliente, crie sua conta e junte-se à batalha.">
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dekaron Legacy</title>
+<link href="styles.css" rel="stylesheet"/>
+<meta content="Dekaron Legacy — clássico Ação 9. Baixe o cliente, crie sua conta e junte-se à batalha." name="description"/>
+<style>
     :root{
-      --bg-image: url(https://media.discordapp.net/attachments/1410808451038445600/1410814630934085692/wook-.jpg?ex=68b26303&is=68b11183&hm=84c09ce97d4ec87eadc8c0c4e7e2e34cb7939860d1f8ca8912855a062c300df0&=&format=webp&width=1554&height=874); /* coloque bg.jpg na mesma pasta do index.html */
+      --bg-image: url(file:///C:/Users/isthm/Desktop/site%20legacy/imagem/static.png); /* coloque bg.jpg na mesma pasta do index.html */
       --overlay-from: rgba(22, 12, 26, 0.75);
       --overlay-to:   rgba(14, 10, 18, 0.85);
     }
@@ -45,124 +46,43 @@
   </style>
 </head>
 <body>
-  <!-- Top Navigation -->
-  <header class="topbar">
-    <div class="topbar__inner">
-      <div class="brand">
-        <span class="brand__logo">DL</span>
-        <span class="brand__name">Dekaron <strong>Legacy</strong></span>
-      </div>
-      <nav class="nav">
- 
-      </nav>
-    </div>
-  </header>
-
-  <!-- Background overlay -->
-  <div class="bg-overlay"></div>
-
-  <!-- Main Hero -->
-  <main class="hero">
-    <div class="hero__titles">
-      <div class="chip">CLÁSSICO</div>
-      <h1 class="title">
-        <span class="title__thin">DEKARON</span>
-        <span class="title__accent">LEGACY</span>
-      </h1>
-      <div class="subtitle">ACTION 9</div>
-
-      <div class="cta">
-        <a class="btn btn--primary" 
-           href="https://drive.google.com/file/d/1SyoGAOI5x7N9VD_6CGGBTclhKi8AUxiM/view" 
-           id="downloadBtn" target="_blank">
-          <div>DOWNLOAD</div>
-          <small>Game size<span id="clientSize">2,7 GB</span></small>
-
-<div class="cta" style="display: flex; gap: 12px; align-items: center;">
-  <a class="discord" href="https://discord.gg/uE54J6TCuD" target="_blank">
-    <svg class="discord__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240" fill="white">
-      <path d="M104.4 104.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zm36.2 0c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"/>
-      <path d="M189.5 20h-134C24 20 0 44 0 73.7v92.7c0 29.7 24 53.7 55.5 53.7h113.2l-5.3-18.5 12.8 11.9 12.1 11.1L245 240V73.7c0-29.7-24-53.7-55.5-53.7zm-24.1 135s-2.3-2.7-4.2-5c8.3-2.3 11.4-7.3 11.4-7.3-2.6 1.7-5.1 2.9-7.3 3.7-3.2 1.3-6.3 2.1-9.3 2.7-6.1 1.1-11.7.8-16.5-.1-3.6-.7-6.7-1.7-9.3-2.7-1.4-.5-3-1.3-4.5-2.3-.2-.1-.4-.2-.6-.3-.1-.1-.2-.1-.3-.2-1.3-.7-2-1.2-2-1.2s3 5 10.9 7.3c-1.9 2.3-4.2 5-4.2 5-13.9-.4-19.2-9.5-19.2-9.5 0-20.1 9-36.5 9-36.5 9-6.7 17.6-6.5 17.6-6.5l.6.7c-11.3 3.3-16.5 8.3-16.5 8.3s1.4-1 3.7-2.3c6.8-3.8 12.2-4.8 14.5-5.1.4-.1.8-.2 1.2-.2 4.4-.6 9.4-.8 14.6-.2 6.9.8 14.3 2.9 21.8 7.1 0 0-5-4.8-15.8-8.1l.9-1s8.6-.2 17.6 6.5c0 0 9 16.4 9 36.5 0 0-5.4 9.1-19.4 9.5z"/>
-    </svg>
-    <span class="discord__text">Entrar no Discord</span>
-  </a>
-
-  <a class="btn btn--primary" 
-     href="https://www.xtremetop100.com/in.php?site=1132377698" 
-     id="voteBtn" target="_blank">
-    <div>VOTE</div>
-  </a>
+<!-- Top Navigation -->
+<header class="topbar">
+<div class="topbar__inner">
+<div class="brand">
+<span class="brand__logo">DL</span>
+<span class="brand__name">Dekaron <strong>Legacy</strong></span>
 </div>
-
-    <!-- Sidebar cards -->
-    <aside class="panel">
-      <section class="card">
-        <header class="card__header">
-          <span class="dot dot--purple"></span>
-          <span class="card__title">PLAYERS ONLINE</span>
-          <button class="gear" title="Configurações">⚙</button>
-        </header>
-        <div class="card__body">
-          <div class="online">
-            <div class="online__count">
-              <span id="onlineNow">0</span> / <span id="onlineMax">300</span>
-            </div>
-            <div class="bar">
-              <div id="onlineBar" class="bar__fill" style="width: 0%"></div>
-            </div>
-            <div class="muted"><small>Updated: <span id="lastUpdated">--:--:--</span></small></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="card">
-        <header class="card__header">
-          <span class="dot dot--pink"></span>
-          <span class="card__title">TIME</span>
-        </header>
-        <div class="card__body time">
-          <div class="time__row">
-            <span>your time:</span>
-            <strong id="localTime">--:--:--</strong>
-          </div>
-          <div class="time__row">
-            <span>Server time:</span>
-            <a class="link" href="#" title="Definir fuso em script.js"><strong id="serverTime">--:--:--</strong></a>
-          </div>
-        </div>
-      </section>
-
-      <section class="card">
-        <header class="card__header">
-          <span class="dot dot--green"></span>
-          <span class="card__title">UPCOMING EVENTS   (TIME HOST)</span>
-          <button id="copyCal" class="btn btn--tiny" title="Copiar agenda">📋</button>
-        </header>
-        <div class="card__body events" id="eventsList">
-          <!-- JS preenche -->
-        </div>
-      </section>
-
-      <a class="discord" href="https://discord.gg/uE54J6TCuD">
-        <svg class="discord__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240" fill="white">
-          <path d="M104.4 104.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zm36.2 0c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"/>
-          <path d="M189.5 20h-134C24 20 0 44 0 73.7v92.7c0 29.7 24 53.7 55.5 53.7h113.2l-5.3-18.5 12.8 11.9 12.1 11.1L245 240V73.7c0-29.7-24-53.7-55.5-53.7zm-24.1 135s-2.3-2.7-4.2-5c8.3-2.3 11.4-7.3 11.4-7.3-2.6 1.7-5.1 2.9-7.3 3.7-3.2 1.3-6.3 2.1-9.3 2.7-6.1 1.1-11.7.8-16.5-.1-3.6-.7-6.7-1.7-9.3-2.7-1.4-.5-3-1.3-4.5-2.3-.2-.1-.4-.2-.6-.3-.1-.1-.2-.1-.3-.2-1.3-.7-2-1.2-2-1.2s3 5 10.9 7.3c-1.9 2.3-4.2 5-4.2 5-13.9-.4-19.2-9.5-19.2-9.5 0-20.1 9-36.5 9-36.5 9-6.7 17.6-6.5 17.6-6.5l.6.7c-11.3 3.3-16.5 8.3-16.5 8.3s1.4-1 3.7-2.3c6.8-3.8 12.2-4.8 14.5-5.1.4-.1.8-.2 1.2-.2 4.4-.6 9.4-.8 14.6-.2 6.9.8 14.3 2.9 21.8 7.1 0 0-5-4.8-15.8-8.1l.9-1s8.6-.2 17.6 6.5c0 0 9 16.4 9 36.5 0 0-5.4 9.1-19.4 9.5z"/>
-        </svg>
-        <span class="discord__text">Login to Discord</span>
-      </a>
-    </aside>
-  </main>
-
-  <footer class="footer">
-    <small>© <span id="year"></span> Dekaron Legacy — All rights reserved.</small>
-  </footer>
-
-  <script>
+<nav class="nav">
+</nav>
+</div>
+</header>
+<!-- Background overlay -->
+<div class="bg-overlay"></div>
+<!-- Main Hero -->
+<main class="hero">
+<div class="hero__titles">
+<div class="chip">CLÁSSICO</div>
+<h1 class="title">
+<span class="title__thin">DEKARON</span>
+<span class="title__accent">LEGACY</span>
+</h1>
+<div class="subtitle">AÇÃO 9</div>
+<div class="cta"><a class="discord" href="https://discord.gg/uE54J6TCuD" target="_blank">
+<svg class="discord__logo" fill="white" viewbox="0 0 245 240" xmlns="http://www.w3.org/2000/svg">
+<path d="M104.4 104.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zm36.2 0c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"></path>
+<path d="M189.5 20h-134C24 20 0 44 0 73.7v92.7c0 29.7 24 53.7 55.5 53.7h113.2l-5.3-18.5 12.8 11.9 12.1 11.1L245 240V73.7c0-29.7-24-53.7-55.5-53.7zm-24.1 135s-2.3-2.7-4.2-5c8.3-2.3 11.4-7.3 11.4-7.3-2.6 1.7-5.1 2.9-7.3 3.7-3.2 1.3-6.3 2.1-9.3 2.7-6.1 1.1-11.7.8-16.5-.1-3.6-.7-6.7-1.7-9.3-2.7-1.4-.5-3-1.3-4.5-2.3-.2-.1-.4-.2-.6-.3-.1-.1-.2-.1-.3-.2-1.3-.7-2-1.2-2-1.2s3 5 10.9 7.3c-1.9 2.3-4.2 5-4.2 5-13.9-.4-19.2-9.5-19.2-9.5 0-20.1 9-36.5 9-36.5 9-6.7 17.6-6.5 17.6-6.5l.6.7c-11.3 3.3-16.5 8.3-16.5 8.3s1.4-1 3.7-2.3c6.8-3.8 12.2-4.8 14.5-5.1.4-.1.8-.2 1.2-.2 4.4-.6 9.4-.8 14.6-.2 6.9.8 14.3 2.9 21.8 7.1 0 0-5-4.8-15.8-8.1l.9-1s8.6-.2 17.6 6.5c0 0 9 16.4 9 36.5 0 0-5.4 9.1-19.4 9.5z"></path>
+</svg>
+<span class="discord__text">Entrar no Discord</span></a><a class="btn btn--vote" href="https://www.xtremetop100.com/in.php?site=1132377698" id="voteBtn" target="_blank"><div>VOTE</div></a></div></div></main>
+<footer class="footer">
+<small>© <span id="year"></span> Dekaron Legacy — Todos os direitos reservados.</small>
+</footer>
+<script>
     const MAX_ONLINE = 300;
     const SERVER_OFFSET_HOURS = 5;            // ajuste aqui
     const CLIENT_SIZE_TEXT = '2,7 GB';
     const EVENTS = [
-      { title: 'DEAD FRONT', times: ['02:00','06:00','10:00','14:00','18:00','22:00'] },
+      { title: 'Frente Morta', times: ['01:00','05:00','09:00','13:00','15:00','21:00'] },
     ];
 
     const $ = (s) => document.querySelector(s);
@@ -224,12 +144,3 @@
   </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
