@@ -76,14 +76,14 @@
            href="https://drive.google.com/file/d/1SyoGAOI5x7N9VD_6CGGBTclhKi8AUxiM/view" 
            id="downloadBtn" target="_blank">
           <div>DOWNLOAD</div>
-          <small>Tamanho do jogo <span id="clientSize">2,7 GB</span></small>
+          <small>Game size<span id="clientSize">2,7 GB</span></small>
 
       <a class="discord" href="https://discord.gg/uE54J6TCuD">
         <svg class="discord__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240" fill="white">
           <path d="M104.4 104.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zm36.2 0c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"/>
           <path d="M189.5 20h-134C24 20 0 44 0 73.7v92.7c0 29.7 24 53.7 55.5 53.7h113.2l-5.3-18.5 12.8 11.9 12.1 11.1L245 240V73.7c0-29.7-24-53.7-55.5-53.7zm-24.1 135s-2.3-2.7-4.2-5c8.3-2.3 11.4-7.3 11.4-7.3-2.6 1.7-5.1 2.9-7.3 3.7-3.2 1.3-6.3 2.1-9.3 2.7-6.1 1.1-11.7.8-16.5-.1-3.6-.7-6.7-1.7-9.3-2.7-1.4-.5-3-1.3-4.5-2.3-.2-.1-.4-.2-.6-.3-.1-.1-.2-.1-.3-.2-1.3-.7-2-1.2-2-1.2s3 5 10.9 7.3c-1.9 2.3-4.2 5-4.2 5-13.9-.4-19.2-9.5-19.2-9.5 0-20.1 9-36.5 9-36.5 9-6.7 17.6-6.5 17.6-6.5l.6.7c-11.3 3.3-16.5 8.3-16.5 8.3s1.4-1 3.7-2.3c6.8-3.8 12.2-4.8 14.5-5.1.4-.1.8-.2 1.2-.2 4.4-.6 9.4-.8 14.6-.2 6.9.8 14.3 2.9 21.8 7.1 0 0-5-4.8-15.8-8.1l.9-1s8.6-.2 17.6 6.5c0 0 9 16.4 9 36.5 0 0-5.4 9.1-19.4 9.5z"/>
         </svg>
-        <span class="discord__text">Entrar no Discord</span>
+        <span class="discord__text">Login to Discord</span>
       </a>
     </aside>
   </main>
@@ -96,18 +96,18 @@
       <section class="card">
         <header class="card__header">
           <span class="dot dot--purple"></span>
-          <span class="card__title">JOGADORES ONLINE</span>
+          <span class="card__title">PLAYERS ONLINE</span>
           <button class="gear" title="Configurações">⚙</button>
         </header>
         <div class="card__body">
           <div class="online">
             <div class="online__count">
-              <span id="onlineNow">0</span> / <span id="onlineMax">200</span>
+              <span id="onlineNow">0</span> / <span id="onlineMax">300</span>
             </div>
             <div class="bar">
               <div id="onlineBar" class="bar__fill" style="width: 0%"></div>
             </div>
-            <div class="muted"><small>Atualizado: <span id="lastUpdated">--:--:--</span></small></div>
+            <div class="muted"><small>Updated: <span id="lastUpdated">--:--:--</span></small></div>
           </div>
         </div>
       </section>
@@ -115,15 +115,15 @@
       <section class="card">
         <header class="card__header">
           <span class="dot dot--pink"></span>
-          <span class="card__title">TEMPO</span>
+          <span class="card__title">TIME</span>
         </header>
         <div class="card__body time">
           <div class="time__row">
-            <span>Seu tempo:</span>
+            <span>your time:</span>
             <strong id="localTime">--:--:--</strong>
           </div>
           <div class="time__row">
-            <span>Horário do servidor:</span>
+            <span>Server time:</span>
             <a class="link" href="#" title="Definir fuso em script.js"><strong id="serverTime">--:--:--</strong></a>
           </div>
         </div>
@@ -132,7 +132,7 @@
       <section class="card">
         <header class="card__header">
           <span class="dot dot--green"></span>
-          <span class="card__title">PRÓXIMOS EVENTOS</span>
+          <span class="card__title">UPCOMING EVENTS</span>
           <button id="copyCal" class="btn btn--tiny" title="Copiar agenda">📋</button>
         </header>
         <div class="card__body events" id="eventsList">
@@ -145,13 +145,13 @@
           <path d="M104.4 104.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zm36.2 0c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"/>
           <path d="M189.5 20h-134C24 20 0 44 0 73.7v92.7c0 29.7 24 53.7 55.5 53.7h113.2l-5.3-18.5 12.8 11.9 12.1 11.1L245 240V73.7c0-29.7-24-53.7-55.5-53.7zm-24.1 135s-2.3-2.7-4.2-5c8.3-2.3 11.4-7.3 11.4-7.3-2.6 1.7-5.1 2.9-7.3 3.7-3.2 1.3-6.3 2.1-9.3 2.7-6.1 1.1-11.7.8-16.5-.1-3.6-.7-6.7-1.7-9.3-2.7-1.4-.5-3-1.3-4.5-2.3-.2-.1-.4-.2-.6-.3-.1-.1-.2-.1-.3-.2-1.3-.7-2-1.2-2-1.2s3 5 10.9 7.3c-1.9 2.3-4.2 5-4.2 5-13.9-.4-19.2-9.5-19.2-9.5 0-20.1 9-36.5 9-36.5 9-6.7 17.6-6.5 17.6-6.5l.6.7c-11.3 3.3-16.5 8.3-16.5 8.3s1.4-1 3.7-2.3c6.8-3.8 12.2-4.8 14.5-5.1.4-.1.8-.2 1.2-.2 4.4-.6 9.4-.8 14.6-.2 6.9.8 14.3 2.9 21.8 7.1 0 0-5-4.8-15.8-8.1l.9-1s8.6-.2 17.6 6.5c0 0 9 16.4 9 36.5 0 0-5.4 9.1-19.4 9.5z"/>
         </svg>
-        <span class="discord__text">Entrar no Discord</span>
+        <span class="discord__text">Login to Discord</span>
       </a>
     </aside>
   </main>
 
   <footer class="footer">
-    <small>© <span id="year"></span> Dekaron Legacy — Todos os direitos reservados.</small>
+    <small>© <span id="year"></span> Dekaron Legacy — All rights reserved.</small>
   </footer>
 
   <script>
@@ -221,5 +221,6 @@
   </script>
 </body>
 </html>
+
 
 
